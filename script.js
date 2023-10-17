@@ -16,7 +16,7 @@ function generatePassword() {
   let pwCriteria = [];
   gatherCriteria(pwCriteria);
 
-/*   if (pwCriteria.length === 5) {     /////////////////////////// Test for array input.
+/*   if (pwCriteria.length === 5) {     // Test for array input.
     alert(pwCriteria.join(", "));
   } */
 
@@ -47,7 +47,7 @@ function makeRandomPw(arr) {
   if (arr[4] === 'Y') {
     criteria.push("special");
   }
-  // console.log(arr[0]);     ////////////////////////// Testing if arr length is correct.
+  // console.log(arr[0]);     // Testing if arr length is correct.
 
   // Selects a random criteria, then selects a random character from that ASCII group.
   for (let i = 0; i < arr[0]; i++) {
@@ -71,11 +71,11 @@ function makeRandomPw(arr) {
         break;
     }
   }
-  // alert(newPw.join(", "));     ///////////////////////// Test for unicode numbers.
+  // alert(newPw.join(", "));     // Test for unicode numbers.
 
   // Converts integers from an array into ASCII characters for each element.
   newPw = String.fromCharCode.apply(null, newPw);
-  // alert(newPw);     ///////////////////////// Test for ASCII characters.
+  // alert(newPw);     // Test for ASCII characters.
 
   return newPw;
 }
@@ -141,13 +141,6 @@ function pwLength() {
     alert("That is not a valid password length. Please try again.");
     return false;
   }
-
-/*   if (answer < 8 || answer > 128) {
-    alert("That is not a valid password length. Please try again.");
-    return false;
-  } else {
-    return answer;
-  } */
 }
 
 function includeLowerCase() {
