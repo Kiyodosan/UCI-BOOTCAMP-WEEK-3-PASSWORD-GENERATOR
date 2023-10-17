@@ -9,7 +9,7 @@ This is a password generator that asks the user what criteria they want, then ge
 
 ## How to run this project
 
-![Random Password Generator demo](random password generator - demo img.png)
+![Random Password Generator demo](/random password generator - demo img.png)
 
 Click this link to visit the site:
 [Random Password Generator](https://kiyodosan.github.io/UCI-BOOTCAMP-WEEK-3-PASSWORD-GENERATOR/)
